@@ -14,12 +14,8 @@
                 #Usage
 -Place the image file you want to process in the same directory as this script. Make sure the image file is in a supported format (e.g., JPEG, PNG).
 
--Modify the input_path variable in the script to specify the filename of the input image.
-
                  #python
 -input_path = 'sample.jpg'
-
--Modify the output_path variable in the script to specify the filename for the output image. The output image will be saved in the same directory as the script.
 
 -output_path = 'result.png'
 
@@ -28,12 +24,12 @@
    
 -The script will process the input image, remove the background, and save the resulting image with the specified filename.
 
-                 #Important Note
+                 #To Note
 -The script utilizes the rembg library, which relies on an AI model to remove the background. The accuracy of the background removal depends on the complexity of the image and the quality of the AI model.
 
--It is recommended to test the script with different images and adjust the parameters or choose different models if the results are not satisfactory.
+-It is recommended to test the script with different images and adjust the parameters accordingly.
 
 -This script assumes that the input image and the output directory are in the same location as the script. If you want to process images from a different directory, provide the absolute or relative path to the input image.
 
                 #License
-This script is released under the MIT License. Feel free to modify and distribute it according to your needs.
+-This script is released under the MIT License. Feel free to modify and distribute it according to your needs.
